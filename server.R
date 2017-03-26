@@ -1,5 +1,7 @@
 library(shiny)
 library(caret)
+library(randomForest)
+library(gbm)
 library(ISLR)
 
 shinyServer(function(input, output) {
